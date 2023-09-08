@@ -7,7 +7,7 @@ const xhr = new XMLHttpRequest();
 xhr.onreadystatechange = function () {
 
     //Error check
-    if(xhr.readerState === 4 && xhr.status === 200) {
+    if(xhr.readyState === 4 && xhr.status === 200) {
 
         //If all good, parse JSON file
         nameData = JSON.parse(xhr.responseText);
@@ -35,7 +35,7 @@ function translateName() {
     if(matchedElement) {
 
         const kanjiName = matchedElement.kanji;
-        outputDiv.textContent = "${kanjiName}";
+        outputDiv.textContent = 'Possible Kanji Version: ${kanjiName}';
 
     } else {
 
