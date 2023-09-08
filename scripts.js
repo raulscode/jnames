@@ -27,7 +27,7 @@ xhr.send();
 //Find name and convert to kanji
 function translateName() {
 
-    const inputName = document.getElementById('input_name').ariaValueMax.trim().toLowerCase();
+    const inputName = document.getElementById('input_name').value.trim().toLowerCase();
     const outputDiv = document.getElementById('result_area');
 
     const matchedElement = nameData.find(entry => entry.romaji === inputName);
