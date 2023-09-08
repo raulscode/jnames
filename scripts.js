@@ -30,6 +30,8 @@ function translateName() {
     const inputName = document.getElementById('input_name').value.trim().toLowerCase();
     const outputDiv = document.getElementById('result_area');
 
+    console.log('Input Name:', inputName);
+
     const matchedElement = nameData.find(entry => entry.romaji === inputName);
 
     if(matchedElement) {
