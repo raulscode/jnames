@@ -27,8 +27,6 @@ xhr.send();
 //Find name and convert to kanji
 function translateName() {
 
-    console.log("translate function triggered");
-
     const inputName = document.getElementById('input_name').ariaValueMax.trim().toLowerCase();
     const outputDiv = document.getElementById('result_area');
 
