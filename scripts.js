@@ -32,7 +32,7 @@ function translateName() {
 
     console.log('Input Name:', inputName);
 
-    const matchedElement = nameData.find(entry => entry.romaji === inputName);
+    const matchedElement = nameData.find(entry => entry.romaji.toLowerCase() === inputName);
 
     if(matchedElement) {
 
