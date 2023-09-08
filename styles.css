@@ -1,9 +1,11 @@
 h1 {
-    color:rgb(34, 34, 146);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color:#1877F2;
+}
+h2 {
+
 }
 .note {
-    color:rgb(34, 34, 146);
+    color:#1877F2;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -12,11 +14,17 @@ h1 {
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
     width: 50%;
     min-width: 200px;
-    padding: 50px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .find_button {
 
-    color:rgb(34, 34, 146);
+    background-color:#1877F2;
+    color: #fff;
+    padding: 0px 10px 0px 10px;
 
 }
