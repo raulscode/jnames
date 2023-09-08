@@ -37,7 +37,7 @@ function translateName() {
     if(matchedElement) {
 
         const kanjiName = matchedElement.kanji;
-        outputDiv.textContent = `Possible Kanji Version: ${kanjiName}`;
+        outputDiv.textContent = `Possible Kanji: ${kanjiName}`;
 
     } else {
 
