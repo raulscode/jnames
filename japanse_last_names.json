@@ -1,0 +1,534 @@
+[
+    {
+        "romaji": "Satō",
+        "kanji": "佐藤"
+    },
+    {
+        "romaji": "Sato",
+        "kanji": "佐藤"
+    },
+    {
+        "romaji": "Satou",
+        "kanji": "佐藤"
+    },
+    {
+        "romaji": "Suzuki",
+        "kanji": "鈴木"
+    },
+    {
+        "romaji": "Takahashi",
+        "kanji": "高橋"
+    },
+    {
+        "romaji": "Tanaka",
+        "kanji": "田中"
+    },
+    {
+        "romaji": "Watanabe",
+        "kanji": "渡辺"
+    },
+    {
+        "romaji": "Itō",
+        "kanji": "伊藤"
+    },
+    {
+        "romaji": "Ito",
+        "kanji": "伊藤"
+    },
+    {
+        "romaji": "Itou",
+        "kanji": "伊藤"
+    },
+    {
+        "romaji": "Nakamura",
+        "kanji": "中村"
+    },
+    {
+        "romaji": "Kobayashi",
+        "kanji": "小林"
+    },
+    {
+        "romaji": "Yamamoto",
+        "kanji": "山本"
+    },
+    {
+        "romaji": "Katō",
+        "kanji": "加藤"
+    },
+    {
+        "romaji": "Kato",
+        "kanji": "加藤"
+    },
+    {
+        "romaji": "Katou",
+        "kanji": "加藤"
+    },
+    {
+        "romaji": "Yoshida",
+        "kanji": "吉田"
+    },
+    {
+        "romaji": "Yamada",
+        "kanji": "山田"
+    },
+    {
+        "romaji": "Sasaki",
+        "kanji": "佐々木"
+    },
+    {
+        "romaji": "Yamaguchi",
+        "kanji": "山口"
+    },
+    {
+        "romaji": "Matsumoto",
+        "kanji": "松本"
+    },
+    {
+        "romaji": "Inoue",
+        "kanji": "井上"
+    },
+    {
+        "romaji": "Kimura",
+        "kanji": "木村"
+    },
+    {
+        "romaji": "Shimizu",
+        "kanji": "清水"
+    },
+    {
+        "romaji": "Hayashi",
+        "kanji": "林"
+    },
+    {
+        "romaji": "Saitō",
+        "kanji": "斉藤, 斎藤"
+    },
+    {
+        "romaji": "Saito",
+        "kanji": "斉藤, 斎藤"
+    },
+    {
+        "romaji": "Saitou",
+        "kanji": "斉藤, 斎藤"
+    },
+    {
+        "romaji": "Yamazaki",
+        "kanji": "山崎"
+    },
+    {
+        "romaji": "Yamasaki",
+        "kanji": "山崎"
+    },
+    {
+        "romaji": "Nakajima",
+        "kanji": "中島"
+    },
+    {
+        "romaji": "Nakashima",
+        "kanji": "中島"
+    },
+    {
+        "romaji": "Mori",
+        "kanji": "森"
+    },
+    {
+        "romaji": "Abe",
+        "kanji": "阿部"
+    },
+    {
+        "romaji": "Ikeda",
+        "kanji": "池田"
+    },
+    {
+        "romaji": "Hashimoto",
+        "kanji": "橋本"
+    },
+    {
+        "romaji": "Ishikawa",
+        "kanji": "石川"
+    },
+    {
+        "romaji": "Yamashita",
+        "kanji": "山下"
+    },
+    {
+        "romaji": "Ogawa",
+        "kanji": "小川"
+    },
+    {
+        "romaji": "Ishii",
+        "kanji": "石井"
+    },
+    {
+        "romaji": "Hasegawa",
+        "kanji": "長谷川"
+    },
+    {
+        "romaji": "Gotō",
+        "kanji": "後藤"
+    },
+    {
+        "romaji": "Goto",
+        "kanji": "後藤"
+    },
+    {
+        "romaji": "Gotou",
+        "kanji": "後藤"
+    },
+    {
+        "romaji": "Okada",
+        "kanji": "岡田"
+    },
+    {
+        "romaji": "Kondō",
+        "kanji": "近藤"
+    },
+    {
+        "romaji": "Kondo",
+        "kanji": "近藤"
+    },
+    {
+        "romaji": "Kondou",
+        "kanji": "近藤"
+    },
+    {
+        "romaji": "Maeda",
+        "kanji": "前田"
+    },
+    {
+        "romaji": "Fujita",
+        "kanji": "藤田"
+    },
+    {
+        "romaji": "Endō",
+        "kanji": "遠藤"
+    },
+    {
+        "romaji": "Endo",
+        "kanji": "遠藤"
+    },
+    {
+        "romaji": "Endou",
+        "kanji": "遠藤"
+    },
+    {
+        "romaji": "Aoki",
+        "kanji": "青木"
+    },
+    {
+        "romaji": "Sakamoto",
+        "kanji": "坂本"
+    },
+    {
+        "romaji": "Murakami",
+        "kanji": "村上"
+    },
+    {
+        "romaji": "Ōta",
+        "kanji": "太田"
+    },
+    {
+        "romaji": "Ota",
+        "kanji": "太田"
+    },
+    {
+        "romaji": "Oota",
+        "kanji": "太田"
+    },
+    {
+        "romaji": "Kaneko",
+        "kanji": "金子"
+    },
+    {
+        "romaji": "Fujii",
+        "kanji": "藤井"
+    },
+    {
+        "romaji": "Fukuda",
+        "kanji": "福田"
+    },
+    {
+        "romaji": "Nishimura",
+        "kanji": "西村"
+    },
+    {
+        "romaji": "Miura",
+        "kanji": "三浦"
+    },
+    {
+        "romaji": "Takeuchi",
+        "kanji": "竹内"
+    },
+    {
+        "romaji": "Nakagawa",
+        "kanji": "中川"
+    },
+    {
+        "romaji": "Okamoto",
+        "kanji": "岡本"
+    },
+    {
+        "romaji": "Matsuda",
+        "kanji": "松田"
+    },
+    {
+        "romaji": "Harada",
+        "kanji": "原田"
+    },
+    {
+        "romaji": "Nakano",
+        "kanji": "中野"
+    },
+    {
+        "romaji": "Ono",
+        "kanji": "小野"
+    },
+    {
+        "romaji": "Tamura",
+        "kanji": "田村"
+    },
+    {
+        "romaji": "Fujiwara",
+        "kanji": "藤原"
+    },
+    {
+        "romaji": "Fujihara",
+        "kanji": "藤原"
+    },
+    {
+        "romaji": "Nakayama",
+        "kanji": "中山"
+    },
+    {
+        "romaji": "Ishida",
+        "kanji": "石田"
+    },
+    {
+        "romaji": "Kojima",
+        "kanji": "小島"
+    },
+    {
+        "romaji": "Wada",
+        "kanji": "和田"
+    },
+    {
+        "romaji": "Morita",
+        "kanji": "森田"
+    },
+    {
+        "romaji": "Uchida",
+        "kanji": "内田"
+    },
+    {
+        "romaji": "Shibata",
+        "kanji": "柴田"
+    },
+    {
+        "romaji": "Sakai",
+        "kanji": "酒井"
+    },
+    {
+        "romaji": "Hara",
+        "kanji": "原"
+    },
+    {
+        "romaji": "Takagi",
+        "kanji": "高木"
+    },
+    {
+        "romaji": "Takaki",
+        "kanji": "高木"
+    },
+    {
+        "romaji": "Yokoyama",
+        "kanji": "横山"
+    },
+    {
+        "romaji": "Andō",
+        "kanji": "安藤"
+    },
+    {
+        "romaji": "Miyazaki",
+        "kanji": "宮崎"
+    },
+    {
+        "romaji": "Miyasaki",
+        "kanji": "宮崎"
+    },
+    {
+        "romaji": "Ueda",
+        "kanji": "上田"
+    },
+    {
+        "romaji": "Ueta",
+        "kanji": "上田"
+    },
+    {
+        "romaji": "Shimada",
+        "kanji": "島田"
+    },
+    {
+        "romaji": "Kudō",
+        "kanji": "工藤"
+    },
+    {
+        "romaji": "Ōno",
+        "kanji": "大野"
+    },
+    {
+        "romaji": "Ono",
+        "kanji": "大野"
+    },
+    {
+        "romaji": "Oono",
+        "kanji": "大野"
+    },
+    {
+        "romaji": "Miyamoto",
+        "kanji": "宮本"
+    },
+    {
+        "romaji": "Sugiyama",
+        "kanji": "杉山"
+    },
+    {
+        "romaji": "Imai",
+        "kanji": "今井"
+    },
+    {
+        "romaji": "Maruyama",
+        "kanji": "丸山"
+    },
+    {
+        "romaji": "Masuda",
+        "kanji": "増田"
+    },
+    {
+        "romaji": "Takada",
+        "kanji": "高田"
+    },
+    {
+        "romaji": "Takata",
+        "kanji": "高田"
+    },
+    {
+        "romaji": "Murata",
+        "kanji": "村田"
+    },
+    {
+        "romaji": "Hirano",
+        "kanji": "平野"
+    },
+    {
+        "romaji": "Ōtsuka",
+        "kanji": "大塚"
+    },
+    {
+        "romaji": "Otsuka",
+        "kanji": "大塚"
+    },
+    {
+        "romaji": "Ootsuka",
+        "kanji": "大塚"
+    },
+    {
+        "romaji": "Sugawara",
+        "kanji": "菅原"
+    },
+    {
+        "romaji": "Sugahara",
+        "kanji": "菅原"
+    },
+    {
+        "romaji": "Takeda",
+        "kanji": "武田"
+    },
+    {
+        "romaji": "Taketa",
+        "kanji": "武田"
+    },
+    {
+        "romaji": "Arai",
+        "kanji": "新井"
+    },
+    {
+        "romaji": "Koyama",
+        "kanji": "小山"
+    },
+    {
+        "romaji": "Oyama",
+        "kanji": "小山"
+    },
+    {
+        "romaji": "Noguchi",
+        "kanji": "野口"
+    },
+    {
+        "romaji": "Sakurai",
+        "kanji": "桜井"
+    },
+    {
+        "romaji": "Chiba",
+        "kanji": "千葉"
+    },
+    {
+        "romaji": "Iwasaki",
+        "kanji": "岩崎"
+    },
+    {
+        "romaji": "Sano",
+        "kanji": "佐野"
+    },
+    {
+        "romaji": "Taniguchi",
+        "kanji": "谷口"
+    },
+    {
+        "romaji": "Ueno",
+        "kanji": "上野"
+    },
+    {
+        "romaji": "Matsui",
+        "kanji": "松井"
+    },
+    {
+        "romaji": "Kōno",
+        "kanji": "河野"
+    },
+    {
+        "romaji": "Kouno",
+        "kanji": "河野"
+    },
+    {
+        "romaji": "Kawano",
+        "kanji": "河野"
+    },
+    {
+        "romaji": "Ichikawa",
+        "kanji": "市川"
+    },
+    {
+        "romaji": "Watanabe",
+        "kanji": "渡部"
+    },
+    {
+        "romaji": "Watabe",
+        "kanji": "渡部"
+    },
+    {
+        "romaji": "Nomura",
+        "kanji": "野村"
+    },
+    {
+        "romaji": "Kikuchi",
+        "kanji": "菊地"
+    },
+    {
+        "romaji": "Kinoshita",
+        "kanji": "木下"
+    },
+    {
+        "romaji": "Tateo",
+        "kanji": "立尾"
+    }
+]
