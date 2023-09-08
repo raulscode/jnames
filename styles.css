@@ -1,0 +1,16 @@
+h1 {
+    color:rgb(34, 34, 146);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.note {
+    color:rgb(34, 34, 146);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.form_card {
+
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    min-width: 200px;
+
+}
