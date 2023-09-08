@@ -14,7 +14,7 @@ xhr.onreadystatechange = function () {
 
     } else if (xhr.readyState === 4 && xhr.status !== 200) {
 
-    console.error('Could not load JSON file')
+    console.error('Could not load JSON file');
 
     }
 
