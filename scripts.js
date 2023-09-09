@@ -53,6 +53,7 @@ function translateName() {
 
 }
 
+//Method that will guess the kanji name based on patterns (not finished yet)
 function guessKanjiName(romajiName)
 {
 
@@ -77,6 +78,9 @@ function guessKanjiName(romajiName)
     }
 
 };
+
+//Degbugging
+console.log(nameElementData);
 
 //Send XHR GET request
 xhrTwo.open('GET', 'name_elements.json', true);
