@@ -55,6 +55,9 @@ function translateName() {
 
 function guessKanjiName(romajiName)
 {
+
+    let nameElementData = [];
+
     //Making instance of XMLHttpRequest
     const xhrTwo = new XMLHttpRequest();
 
