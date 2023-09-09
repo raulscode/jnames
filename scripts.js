@@ -32,12 +32,12 @@ function translateName() {
 
     console.log('Input Name:', inputName);
 
-    const matchedElement = nameData.find(entry => entry.romaji.toLowerCase() === inputName);
+    const matchedElement = nameData.filter(entry => entry.romaji.toLowerCase() === inputName);
 
-    if(matchedElement) {
+    if(matchedElement.length > 0) {
 
-        const kanjiName = matchedElement.kanji;
-        outputDiv.textContent = `Possible Kanji: ${kanjiName}`;
+        const kanjiName = matchedElement.map(element => element.kanji);
+        outputDiv.textContent = `Possible Kanji: ${kanjiName.join(', ')}`;
 
     } else {
 
