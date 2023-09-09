@@ -42,12 +42,14 @@ function translateName() {
 
     } else {
 
-        const guessedName = guessKanjiName(inputName);
+        //Will call method that filters through different name elements...later
+        //const guessedName = guessKanjiName(inputName);
 
         //Just for debugging purposes.
         console.log('Guessed Name:', guessedName);
 
-        outputDiv.textContent = `Name not found in database. Best guess: ${guessedName}`;
+        //For now, we will just do this.
+        outputDiv.textContent = `Name not found in database.`;
 
     }
 
