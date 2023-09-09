@@ -74,6 +74,10 @@ function guessKanjiName(romajiName)
 
 console.log(nameElementData);
 
+let nameElementData = getKeyValuesFromJSONFile();
+
+console.log(nameElementData);
+
     for (const {romaji, kanji} of nameElementData)
     {
         console.log(romaji);
