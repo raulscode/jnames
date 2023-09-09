@@ -72,8 +72,6 @@ function guessKanjiName(romajiName)
         }
       }
 
-console.log(nameElementData);
-
 let nameElementData = getKeyValuesFromJSONFile();
 
 console.log(nameElementData);
