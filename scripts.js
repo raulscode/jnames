@@ -30,6 +30,7 @@ function translateName() {
     const inputName = document.getElementById('input_name').value.trim().toLowerCase();
     const outputDiv = document.getElementById('result_area');
 
+    //Just for debugging purposes.
     console.log('Input Name:', inputName);
 
     const matchedElement = nameData.filter(entry => entry.romaji.toLowerCase() === inputName);
@@ -41,8 +42,52 @@ function translateName() {
 
     } else {
 
-        outputDiv.textContent = "Sorry, name not found.";
+        const guessedName = guessKanjiName(romaji);
+
+        //Just for debugging purposes.
+        console.log('Guessed Name:', guessedName);
+
+        outputDiv.textContent = `Name not found in database. Best guess: ${guessedName}`;
 
     }
+
+}
+
+function guessKanjiName(romajiName)
+{
+    //Making instance of XMLHttpRequest
+    const xhrTwo = new XMLHttpRequest();
+
+    //Loading the JSON file
+    xhrTwo.onreadystatechange = function () {
+
+    //Error check
+    if(xhrTwo.readyState === 4 && xhrTwo.status === 200) {
+
+        //If all good, parse JSON file
+        nameElementData = JSON.parse(xhrTwo.responseText);
+
+    } else if (xhrTwo.readyState === 4 && xhrTwo.status !== 200) {
+
+    console.error('Could not load JSON file');
+
+    }
+
+};
+
+//Send XHR GET request
+xhrTwo.open('GET', 'name_elements.json', true);
+xhrTwo.send();
+
+    for (const {romaji, kanji} of nameElementData)
+    {
+        const pattern = new RegExp(romaji);
+        if(pattern.test(romajiName))
+        {
+            return kanji;
+        }
+    }
+
+    return null;
 
 }
