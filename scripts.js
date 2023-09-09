@@ -84,6 +84,8 @@ xhrTwo.send();
 
     for (const {romaji, kanji} of nameElementData)
     {
+        console.log(romaji);
+        console.log(romajiName);
         const pattern = new RegExp(romaji);
         if(pattern.test(romajiName))
         {
