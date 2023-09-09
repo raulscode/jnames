@@ -42,7 +42,7 @@ function translateName() {
 
     } else {
 
-        const guessedName = guessKanjiName(romaji);
+        const guessedName = guessKanjiName(inputName);
 
         //Just for debugging purposes.
         console.log('Guessed Name:', guessedName);
