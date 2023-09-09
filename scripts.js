@@ -80,11 +80,13 @@ function guessKanjiName(romajiName)
 };
 
 //Degbugging
-console.log(nameElementData);
+
 
 //Send XHR GET request
 xhrTwo.open('GET', 'name_elements.json', true);
 xhrTwo.send();
+
+console.log(nameElementData);
 
     for (const {romaji, kanji} of nameElementData)
     {
