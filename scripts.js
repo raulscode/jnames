@@ -57,34 +57,20 @@ function translateName() {
 function guessKanjiName(romajiName)
 {
 
-    let nameElementData = [];
-
-    //Making instance of XMLHttpRequest
-    const xhrTwo = new XMLHttpRequest();
-
-    //Loading the JSON file
-    xhrTwo.onreadystatechange = function () {
-
-    //Error check
-    if(xhrTwo.readyState === 4 && xhrTwo.status === 200) {
-
-        //If all good, parse JSON file
-        nameElementData = JSON.parse(xhrTwo.responseText);
-
-    } else if (xhrTwo.readyState === 4 && xhrTwo.status !== 200) {
-
-    console.error('Could not load JSON file');
-
-    }
-
-};
-
-//Degbugging
-
-
-//Send XHR GET request
-xhrTwo.open('GET', 'name_elements.json', true);
-xhrTwo.send();
+    async function getKeyValuesFromJSONFile() {
+        try {
+          const response = await fetch('name_elements.json');
+          if (!response.ok) {
+            throw new Error('JSON not found');
+          }
+      
+          let nameElementData = await response.json();
+          return nameElementData;
+        } catch (error) {
+          console.error(error);
+          return []; // Return an empty array or handle the error as needed
+        }
+      }
 
 console.log(nameElementData);
 
