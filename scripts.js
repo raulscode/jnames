@@ -46,7 +46,7 @@ function translateName() {
         //const guessedName = guessKanjiName(inputName);
 
         //Just for debugging purposes.
-        console.log('Guessed Name:', guessedName);
+        //console.log('Guessed Name:', guessedName);
 
         //For now, we will just do this.
         outputDiv.textContent = `Name not found in database.`;
